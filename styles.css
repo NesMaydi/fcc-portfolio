@@ -1,0 +1,100 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+}
+
+#bullet{
+    color: #034C8C;
+}
+
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #034C8C;
+}
+
+.navlink{
+    color: #eee;
+    text-decoration: none;
+    margin-right: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.navlink:nth-child(3){
+    margin-right: 0;
+}
+
+main{
+    margin-top: 100px;
+}
+
+#welcome-section{
+    height: 100vh;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/anas-alshanti-feXpdV001o4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#presentation{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin-top: 10px;
+}
+
+
+.prez-paragraph{
+    width: 70%;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#projects{
+    display: flex;
+text-align: center;    justify-content: center;
+}
+@media screen and (max-width: 320px ) {
+    
+
+    .navlink{
+    font-size: 11px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    .prez-paragraph{
+        font-size: 15px;
+        text-align: left;
+    }
+}
